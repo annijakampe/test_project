@@ -1,7 +1,7 @@
     <!-- Navigation Bar -->
     <nav class="bg-blue-500 p-4 text-white">
         <div class="container mx-auto flex justify-between items-center">
-            <a href="#" class="text-xl font-bold">My Website - <?= $page ?> </a>
+            <a href="/" class="text-xl font-bold">My Website <?= isset($page) ? " - {$page}" : '' ?> </a>
             <div class="flex items-center space-x-4">
                 <ul class="flex space-x-4">
                     <li><a href="/" class="hover:underline <?= urLIs('/') ? 'text-green-300' : ''; ?> ">Home</a></li>

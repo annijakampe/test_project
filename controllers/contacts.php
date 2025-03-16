@@ -1,6 +1,6 @@
 <?php
 
-require "functions.php";
+
 
 $page = "contacts";
 

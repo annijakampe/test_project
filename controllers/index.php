@@ -7,7 +7,6 @@
 // Parāda pašreizējā pieprasījuma URL ceļu.
 // echo $_SERVER["REQUEST_URI"];
 
-require "functions.php";
 
 $page = "index";
 

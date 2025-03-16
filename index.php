@@ -1,11 +1,5 @@
 <?php
 
-$path = $_SERVER["REQUEST_URI"];
+require "functions.php";
 
-$routes  = [
-    "/" => "controllers/index.php",
-    "/about" => "controllers/about.php",
-    "/contacts" => "controllers/contacts.php"
-];
-
-require $routes[$path];
+require "router.php";
