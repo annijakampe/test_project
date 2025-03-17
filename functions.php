@@ -13,3 +13,12 @@ function abort($code = 404)
     require "views/{$code}.php";
     die();
 }
+
+// Funkcija, kas izdrukā datus un pēc tam izbeidz skriptu.
+function dd($data)
+{
+    echo "<pre>";
+    print_r($data);
+    echo "</pre>";
+    die();
+}
